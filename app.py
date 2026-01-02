@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score
 @st.cache_resource
 def get_trained_model():
     # Modified line to match your uploaded filename
-    file_name = "../data/lungcancer.csv"
+    file_name = "lungcancer.csv"
     
     # Check if file exists in the current directory
     if not os.path.exists(file_name):
